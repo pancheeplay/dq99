@@ -1,0 +1,68 @@
+{
+  "playerSpawnMarkerId": "player_spawn_town",
+  "actors": [
+    { "id": "npc_innkeeper", "markerId": "spawn_innkeeper", "displayName": "旅店老板", "dialogueId": "innkeeper_intro", "tint": "#F2D06B" },
+    { "id": "npc_child", "markerId": "spawn_child", "displayName": "小孩", "dialogueId": "child_fountain", "tint": "#F58BC0" },
+    { "id": "npc_mayor", "markerId": "spawn_mayor", "displayName": "镇长", "dialogueId": "mayor_intro", "tint": "#B1E08A" }
+  ],
+  "portals": [
+    {
+      "id": "portal_inn_enter",
+      "markerId": "door_inn_outside",
+      "destinationSceneName": "InnScene",
+      "destinationMarkerId": "player_spawn_inn",
+      "displayName": "旅店",
+      "promptText": "进入"
+    },
+    {
+      "id": "portal_shop_enter",
+      "markerId": "door_shop_outside",
+      "destinationSceneName": "ShopScene",
+      "destinationMarkerId": "player_spawn_shop",
+      "displayName": "道具店",
+      "promptText": "进入"
+      
+    }
+  ],
+  "dialogues": [
+    {
+      "id": "innkeeper_intro",
+      "nodes": [
+        {
+          "id": "start",
+          "speaker": "旅店老板",
+          "text": "现在旅店已经可以切换到独立场景了。以后室内 NPC、柜台、床位都应该在旅店自己的 Scene 里配置。",
+          "choices": [
+            { "text": "明白。", "jump": null }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "child_fountain",
+      "nodes": [
+        {
+          "id": "start",
+          "speaker": "小孩",
+          "text": "先和我说话，道具店才会开放。这样你就能顺便验证 flag 是否跨场景保留。",
+          "choices": [
+            { "text": "继续跑吧。", "jump": null, "setFlags": [ "met_child" ] }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mayor_intro",
+      "nodes": [
+        {
+          "id": "start",
+          "speaker": "镇长",
+          "text": "一个场景只放属于这个场景的 NPC 和门。你以后做旅店、教堂、民居，都按这个结构复制就行。",
+          "choices": [
+            { "text": "收到。", "jump": null }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "playerSpawnMarkerId": "player_spawn_shop",
+  "actors": [],
+  "portals": [
+    {
+      "id": "portal_shop_exit",
+      "markerId": "door_shop_inside",
+      "destinationSceneName": "SampleScene",
+      "destinationMarkerId": "door_shop_outside",
+      "displayName": "回到镇上",
+      "promptText": "离开"
+    }
+  ],
+  "dialogues": []
+}

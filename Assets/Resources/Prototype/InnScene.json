@@ -1,0 +1,31 @@
+{
+  "playerSpawnMarkerId": "player_spawn_inn",
+  "actors": [
+    { "id": "npc_inn_host", "markerId": "spawn_inn_host", "displayName": "旅店柜台", "dialogueId": "inn_host_intro", "tint": "#F2D06B" }
+  ],
+  "portals": [
+    {
+      "id": "portal_inn_exit",
+      "markerId": "door_inn_inside",
+      "destinationSceneName": "SampleScene",
+      "destinationMarkerId": "door_inn_outside",
+      "displayName": "回到镇上",
+      "promptText": "离开"
+    }
+  ],
+  "dialogues": [
+    {
+      "id": "inn_host_intro",
+      "nodes": [
+        {
+          "id": "start",
+          "speaker": "旅店柜台",
+          "text": "这是独立旅店场景的示例数据。以后你可以在这里配置床位、住店菜单和室内 NPC。",
+          "choices": [
+            { "text": "先看看。", "jump": null }
+          ]
+        }
+      ]
+    }
+  ]
+}
