@@ -1,9 +1,27 @@
 {
   "playerSpawnMarkerId": "player_spawn_town",
   "actors": [
-    { "id": "npc_innkeeper", "markerId": "spawn_innkeeper", "displayName": "旅店老板", "dialogueId": "innkeeper_intro", "tint": "#F2D06B" },
-    { "id": "npc_child", "markerId": "spawn_child", "displayName": "小孩", "dialogueId": "child_fountain", "tint": "#F58BC0" },
-    { "id": "npc_mayor", "markerId": "spawn_mayor", "displayName": "镇长", "dialogueId": "mayor_intro", "tint": "#B1E08A" }
+    {
+      "id": "npc_innkeeper",
+      "markerId": "spawn_innkeeper",
+      "displayName": "旅店老板",
+      "dialogueId": "innkeeper_intro",
+      "tint": "#F2D06B"
+    },
+    {
+      "id": "npc_child",
+      "markerId": "spawn_child",
+      "displayName": "小孩",
+      "dialogueId": "child_fountain",
+      "tint": "#F58BC0"
+    },
+    {
+      "id": "npc_mayor",
+      "markerId": "spawn_mayor",
+      "displayName": "镇长",
+      "dialogueId": "mayor_intro",
+      "tint": "#B1E08A"
+    }
   ],
   "portals": [
     {
@@ -21,7 +39,6 @@
       "destinationMarkerId": "player_spawn_shop",
       "displayName": "道具店",
       "promptText": "进入"
-      
     }
   ],
   "dialogues": [
@@ -33,7 +50,10 @@
           "speaker": "旅店老板",
           "text": "现在旅店已经可以切换到独立场景了。以后室内 NPC、柜台、床位都应该在旅店自己的 Scene 里配置。",
           "choices": [
-            { "text": "明白。", "jump": null }
+            {
+              "text": "明白。",
+              "jump": null
+            }
           ]
         }
       ]
@@ -46,7 +66,13 @@
           "speaker": "小孩",
           "text": "先和我说话，道具店才会开放。这样你就能顺便验证 flag 是否跨场景保留。",
           "choices": [
-            { "text": "继续跑吧。", "jump": null, "setFlags": [ "met_child" ] }
+            {
+              "text": "继续跑吧。",
+              "jump": null,
+              "setFlags": [
+                "met_child"
+              ]
+            }
           ]
         }
       ]
@@ -57,9 +83,34 @@
         {
           "id": "start",
           "speaker": "镇长",
-          "text": "一个场景只放属于这个场景的 NPC 和门。你以后做旅店、教堂、民居，都按这个结构复制就行。",
+          "text": "欢迎来到镇上。最近大家都在修整旅店和道具店。",
           "choices": [
-            { "text": "收到。", "jump": null }
+            {
+              "text": "然后呢？",
+              "jump": "line2"
+            }
+          ]
+        },
+        {
+          "id": "line2",
+          "speaker": "镇长",
+          "text": "你先去喷泉那边和小孩聊聊，再去道具店看看。",
+          "choices": [
+            {
+              "text": "明白了。",
+              "jump": "line3"
+            }
+          ]
+        },
+        {
+          "id": "line3",
+          "speaker": "镇长",
+          "text": "等你准备好，就去旅店休整，明天再出发。",
+          "choices": [
+            {
+              "text": "出发前再逛逛。",
+              "jump": null
+            }
           ]
         }
       ]

@@ -39,8 +39,8 @@ namespace Dq99.Prototype.Unity
             var promptText = CreateText("PromptText", prompt.transform, font, 24, TextAnchor.MiddleCenter, Color.white, Vector2.zero, Vector2.one, Vector2.zero, Vector2.zero);
 
             var dialoguePanel = CreatePanel("DialoguePanel", root.transform, new Vector2(0.5f, 0f), new Vector2(0.5f, 0f), new Vector2(0f, 180f), new Vector2(760f, 240f), new Color(0.12f, 0.10f, 0.10f, 0.92f));
-            var speakerText = CreateText("SpeakerText", dialoguePanel.transform, font, 26, TextAnchor.UpperLeft, new Color(1f, 0.92f, 0.65f), new Vector2(0f, 1f), new Vector2(1f, 1f), new Vector2(20f, -18f), new Vector2(-20f, -58f));
-            var bodyText = CreateText("BodyText", dialoguePanel.transform, font, 24, TextAnchor.UpperLeft, Color.white, new Vector2(0f, 1f), new Vector2(1f, 1f), new Vector2(20f, -60f), new Vector2(-20f, -130f));
+            var speakerText = CreateText("SpeakerText", dialoguePanel.transform, font, 26, TextAnchor.UpperLeft, new Color(1f, 0.92f, 0.65f), new Vector2(0f, 1f), new Vector2(1f, 1f), new Vector2(20f, -58f), new Vector2(-20f, -18f));
+            var bodyText = CreateText("BodyText", dialoguePanel.transform, font, 24, TextAnchor.UpperLeft, Color.white, new Vector2(0f, 1f), new Vector2(1f, 1f), new Vector2(20f, -130f), new Vector2(-20f, -60f));
             var choiceText = CreateText("ChoiceText", dialoguePanel.transform, font, 22, TextAnchor.UpperLeft, new Color(0.78f, 0.92f, 1f), new Vector2(0f, 0f), new Vector2(1f, 0f), new Vector2(20f, 18f), new Vector2(-20f, 96f));
 
             return new PrototypeHud(root, promptText, dialoguePanel, speakerText, bodyText, choiceText);
