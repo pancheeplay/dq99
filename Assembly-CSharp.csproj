@@ -86,6 +86,11 @@
     <Compile Include="Assets/Scripts/Runtime/Domain/PrototypeSnapshot.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets/Shaders/Unity-Sketch-Style-Shader-main/MyHatching.shader" />
+    <None Include="Assets/Shaders/URP_PencilSketchTAM.shader" />
+    <None Include="Assets/Shaders/SketchBuilding.shader" />
+  </ItemGroup>
+  <ItemGroup>
     <Reference Include="UnityEngine">
       <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
       <Private>False</Private>

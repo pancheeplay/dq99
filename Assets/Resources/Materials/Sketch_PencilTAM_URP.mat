@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Sketch_PencilTAM_URP
+  m_Shader: {fileID: 4800000, guid: 91a9ed8a966c4263adbc9a1d4f8d5152, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap:
+    RenderType: Opaque
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Hatch0:
+        m_Texture: {fileID: 2800000, guid: 3a24e3d76ed344d57ac6c85639365c4f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Hatch1:
+        m_Texture: {fileID: 2800000, guid: 7c01651c1095e4bc2be014f40172fa75, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Hatch2:
+        m_Texture: {fileID: 2800000, guid: d5cf3ceafa81244d0aaa24d8ae20402b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Hatch3:
+        m_Texture: {fileID: 2800000, guid: 1189114253a5a4af1ba54e51b55b43c3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Hatch4:
+        m_Texture: {fileID: 2800000, guid: e225017c3422644e6a88f5aacfb9df90, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Hatch5:
+        m_Texture: {fileID: 2800000, guid: 1f85a5983560f41bc9924947862bf6c6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _PaperTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AmbientStrength: 0.455
+    - _GrayScale: 0
+    - _HatchFade: 1.6
+    - _HatchStrength: 0.901
+    - _HatchTiling: 15.3
+    - _LightResponse: 1.1
+    - _OutlinePower: 1
+    - _OutlineStrength: 1
+    - _PaperStrength: 0.019
+    - _PaperTiling: 1.3
+    - _ToneBias: -0.18
+    m_Colors:
+    - _BaseColor: {r: 0.88, g: 0.86, b: 0.82, a: 1}
+    - _OutlineColor: {r: 0.14, g: 0.14, b: 0.14, a: 1}
+  m_BuildTextureStacks: []

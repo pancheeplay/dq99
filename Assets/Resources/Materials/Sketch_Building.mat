@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Sketch_Building
+  m_Shader: {fileID: 4800000, guid: c43a3b3b53434baab3dc0f9a6170978d, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Hatch0:
+        m_Texture: {fileID: 2800000, guid: 3a24e3d76ed344d57ac6c85639365c4f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Hatch1:
+        m_Texture: {fileID: 2800000, guid: 7c01651c1095e4bc2be014f40172fa75, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Hatch2:
+        m_Texture: {fileID: 2800000, guid: d5cf3ceafa81244d0aaa24d8ae20402b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Hatch3:
+        m_Texture: {fileID: 2800000, guid: 1189114253a5a4af1ba54e51b55b43c3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Hatch4:
+        m_Texture: {fileID: 2800000, guid: e225017c3422644e6a88f5aacfb9df90, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Hatch5:
+        m_Texture: {fileID: 2800000, guid: 1f85a5983560f41bc9924947862bf6c6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: d5cf3ceafa81244d0aaa24d8ae20402b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalTex:
+        m_Texture: {fileID: 2800000, guid: 67f8acc2f9abe457d9fa5bebf18da189, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OutlineMask:
+        m_Texture: {fileID: 2800000, guid: 67f8acc2f9abe457d9fa5bebf18da189, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _BlendFactor: 9.21
+    - _CrossHatch: 0.22
+    - _CullMode: 0
+    - _Density: 0.591
+    - _EdgeSmoothness: 0.08
+    - _EdgeStrength: 0.9
+    - _EdgeThreshold: 0.55
+    - _HatchAngle: 24
+    - _HatchFade: 2.4
+    - _HatchJitter: 10
+    - _HatchScale: 64
+    - _HatchStrength: 0.42
+    - _HatchThickness: 0.128
+    - _Hoge: 0
+    - _OutlineWidth: 0
+    - _PaperNoiseScale: 3
+    - _PaperNoiseStrength: 0.008
+    - _Roughness: 10.4
+    - _ShadeSmoothness: 0.06
+    - _ShadeThreshold: 0.42
+    - _StrokeBreakup: 0.35
+    - _Threshold: 0.676
+    m_Colors:
+    - _BaseColor: {r: 0.86, g: 0.84, b: 0.8, a: 1}
+    - _LineColor: {r: 0.16, g: 0.16, b: 0.16, a: 1}
+    - _OutlineColor: {r: 0, g: 0, b: 0, a: 1}
+    - _ShadowColor: {r: 0.52, g: 0.5, b: 0.48, a: 1}
+  m_BuildTextureStacks: []
